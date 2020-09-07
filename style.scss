@@ -11,6 +11,9 @@ $main-color: green;
 $header-height: 128px;
 $base-color: #fff;
 $h1-size: 64px;
+$small-size: 16px;
+$big-height-size: 104px;
+$big-width-size: 64px;
 
 .l-header {
   text-align: center;
@@ -67,10 +70,90 @@ footer {
   display: flex;
   .l-primary {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .left-out,.right-out {
+      width: 32px;
+      height: 300px;
+      .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
+        height: $small-size;
+      }
+      .out-two,.out-five {
+        height: $big-height-size;
+      }
+    }
+    .one,.three,.four,.six,.seven,.nine,.ten,.twelve {
+      width: $small-size;
+      height: 300px;
+      .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
+        height: $small-size;
+        background-color: $main-color;
+        margin: 1px;
+      }
+      .out-two,.out-five {
+        height: $big-height-size;
+        background-color: $main-color;
+        margin: 1px;
+      }
+    }
+    .two,.five,.eight,.eleven {
+      width: $big-width-size;
+      height: 300px;
+      .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
+        height: $small-size;
+        background-color: $main-color;
+        margin: 1px;
+      }
+      .out-two,.out-five {
+        height: $big-height-size;
+        background-color: $main-color;
+        margin: 1px;
+      }
+    }
   }
   .l-secondary {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .left-out,.right-out {
+      width: 32px;
+      height: 300px;
+      .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
+        height: $small-size;
+      }
+      .out-two,.out-five {
+        height: $big-height-size;
+      }
+    }
+    .one,.three,.four,.six,.seven,.nine,.ten,.twelve {
+      width: $small-size;
+      height: 300px;
+      .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
+        height: $small-size;
+        background-color: $main-color;
+        margin: 1px;
+      }
+      .out-two,.out-five {
+        height: $big-height-size;
+        background-color: $main-color;
+        margin: 1px;
+      }
+    }
+    .two,.five,.eight,.eleven {
+      width: $big-width-size;
+      height: 300px;
+      .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
+        height: $small-size;
+        background-color: $main-color;
+        margin: 1px;
+      }
+      .out-two,.out-five {
+        height: $big-height-size;
+        background-color: $main-color;
+        margin: 1px;
+      }
+    }
   }
 }
-
-
