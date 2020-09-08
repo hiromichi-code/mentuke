@@ -78,15 +78,21 @@ footer {
       height: 300px;
       .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
         height: $small-size;
+        margin: 1px;
       }
       .out-two,.out-five {
         height: $big-height-size;
+        margin: 1px;
       }
     }
     .one,.three,.four,.six,.seven,.nine,.ten,.twelve {
       width: $small-size;
       height: 300px;
-      .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
+      .top-out,.bottom-out {
+        height: $small-size;
+        margin: 1px;
+      }
+      .out-one,.out-three,.out-four,.out-six {
         height: $small-size;
         background-color: $main-color;
         margin: 1px;
@@ -100,7 +106,11 @@ footer {
     .two,.five,.eight,.eleven {
       width: $big-width-size;
       height: 300px;
-      .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
+      .top-out,.bottom-out {
+        height: $small-size;
+        margin: 1px;
+      }
+      .out-one,.out-three,.out-four,.out-six {
         height: $small-size;
         background-color: $main-color;
         margin: 1px;
@@ -122,15 +132,21 @@ footer {
       height: 300px;
       .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
         height: $small-size;
+        margin: 1px;
       }
       .out-two,.out-five {
         height: $big-height-size;
+        margin: 1px;
       }
     }
     .one,.three,.four,.six,.seven,.nine,.ten,.twelve {
       width: $small-size;
       height: 300px;
-      .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
+      .top-out,.bottom-out {
+        height: $small-size;
+        margin: 1px;
+      }
+      .out-one,.out-three,.out-four,.out-six {
         height: $small-size;
         background-color: $main-color;
         margin: 1px;
@@ -144,7 +160,11 @@ footer {
     .two,.five,.eight,.eleven {
       width: $big-width-size;
       height: 300px;
-      .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
+      .top-out,.bottom-out {
+        height: $small-size;
+        margin: 1px;
+      }
+      .out-one,.out-three,.out-four,.out-six {
         height: $small-size;
         background-color: $main-color;
         margin: 1px;
