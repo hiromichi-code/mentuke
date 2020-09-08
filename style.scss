@@ -14,6 +14,8 @@ $h1-size: 64px;
 $small-size: 16px;
 $big-height-size: 104px;
 $big-width-size: 64px;
+$all-height: 300px;
+$out-height: 32px;
 
 .l-header {
   text-align: center;
@@ -73,9 +75,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    .left-out>.out-five {
+      display: flex;
+      align-items: flex-end;
+    }
     .left-out,.right-out {
       width: 32px;
-      height: 300px;
+      height: $all-height;
       .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
         height: $small-size;
         margin: 1px;
@@ -87,7 +93,7 @@ footer {
     }
     .one,.three,.four,.six,.seven,.nine,.ten,.twelve {
       width: $small-size;
-      height: 300px;
+      height: $all-height;
       .top-out,.bottom-out {
         height: $small-size;
         margin: 1px;
@@ -105,7 +111,7 @@ footer {
     }
     .two,.five,.eight,.eleven {
       width: $big-width-size;
-      height: 300px;
+      height: $all-height;
       .top-out,.bottom-out {
         height: $small-size;
         margin: 1px;
@@ -127,9 +133,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    .right-out>.out-five {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
     .left-out,.right-out {
       width: 32px;
-      height: 300px;
+      height: $all-height;
       .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
         height: $small-size;
         margin: 1px;
@@ -141,7 +152,7 @@ footer {
     }
     .one,.three,.four,.six,.seven,.nine,.ten,.twelve {
       width: $small-size;
-      height: 300px;
+      height: $all-height;
       .top-out,.bottom-out {
         height: $small-size;
         margin: 1px;
@@ -159,7 +170,7 @@ footer {
     }
     .two,.five,.eight,.eleven {
       width: $big-width-size;
-      height: 300px;
+      height: $all-height;
       .top-out,.bottom-out {
         height: $small-size;
         margin: 1px;
