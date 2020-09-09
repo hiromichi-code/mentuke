@@ -70,11 +70,21 @@ footer {
 .l-main {
   height: 480px;
   display: flex;
+  .bottom-out,.top-out {
+    text-align: center;
+  }
   .l-primary {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    .one>.bottom-out,.two>.bottom-out,.three>.bottom-out,.four>.bottom-out,.five>.bottom-out,.six>.bottom-out,.seven>.bottom-out,.eight>.bottom-out,.nine>.bottom-out,.ten>.bottom-out,.eleven>.bottom-out,.twelve>.bottom-out {
+      border-top: medium solid tomato;
+    }
+    .right-out>.out-one,.out-two,.out-three,.out-four,.out-five,.out-six {
+      display: flex;
+      align-items: center;
+    }
     .left-out>.out-five {
       display: flex;
       align-items: flex-end;
@@ -133,6 +143,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    .one>.bottom-out,.two>.bottom-out,.three>.bottom-out,.four>.bottom-out,.five>.bottom-out,.six>.bottom-out,.seven>.bottom-out,.eight>.bottom-out,.nine>.bottom-out,.ten>.bottom-out,.eleven>.bottom-out,.twelve>.bottom-out {
+      border-top: medium solid tomato;
+    }
+    .left-out>.out-one,.out-two,.out-three,.out-four,.out-five,.out-six {
+      display: flex;
+      align-items: center;
+    }
     .right-out>.out-five {
       display: flex;
       align-items: flex-end;

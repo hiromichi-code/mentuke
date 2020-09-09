@@ -75,6 +75,10 @@ footer {
   display: flex;
 }
 
+.l-main .bottom-out, .l-main .top-out {
+  text-align: center;
+}
+
 .l-main .l-primary {
   width: 50%;
   display: -webkit-box;
@@ -83,6 +87,19 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-main .l-primary .one > .bottom-out, .l-main .l-primary .two > .bottom-out, .l-main .l-primary .three > .bottom-out, .l-main .l-primary .four > .bottom-out, .l-main .l-primary .five > .bottom-out, .l-main .l-primary .six > .bottom-out, .l-main .l-primary .seven > .bottom-out, .l-main .l-primary .eight > .bottom-out, .l-main .l-primary .nine > .bottom-out, .l-main .l-primary .ten > .bottom-out, .l-main .l-primary .eleven > .bottom-out, .l-main .l-primary .twelve > .bottom-out {
+  border-top: medium solid tomato;
+}
+
+.l-main .l-primary .right-out > .out-one, .l-main .l-primary .out-two, .l-main .l-primary .out-three, .l-main .l-primary .out-four, .l-main .l-primary .out-five, .l-main .l-primary .out-six {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -164,6 +181,19 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-main .l-secondary .one > .bottom-out, .l-main .l-secondary .two > .bottom-out, .l-main .l-secondary .three > .bottom-out, .l-main .l-secondary .four > .bottom-out, .l-main .l-secondary .five > .bottom-out, .l-main .l-secondary .six > .bottom-out, .l-main .l-secondary .seven > .bottom-out, .l-main .l-secondary .eight > .bottom-out, .l-main .l-secondary .nine > .bottom-out, .l-main .l-secondary .ten > .bottom-out, .l-main .l-secondary .eleven > .bottom-out, .l-main .l-secondary .twelve > .bottom-out {
+  border-top: medium solid tomato;
+}
+
+.l-main .l-secondary .left-out > .out-one, .l-main .l-secondary .out-two, .l-main .l-secondary .out-three, .l-main .l-secondary .out-four, .l-main .l-secondary .out-five, .l-main .l-secondary .out-six {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
