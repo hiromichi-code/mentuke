@@ -13,7 +13,7 @@ $base-color: #fff;
 $h1-size: 64px;
 $small-size: 16px;
 $big-height-size: 104px;
-$big-width-size: 64px;
+$big-width-size: 80px;
 $all-height: 300px;
 $out-height: 32px;
 $out-width: 32px;
@@ -134,6 +134,7 @@ footer {
         height: $big-height-size;
         background-color: $main-color;
         margin: $groove;
+        color: $base-color
       }
     }
   }
@@ -192,6 +193,7 @@ footer {
         height: $big-height-size;
         background-color: $main-color;
         margin: $groove;
+        color: $base-color;
       }
     }
   }
