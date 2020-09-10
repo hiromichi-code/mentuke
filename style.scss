@@ -16,6 +16,12 @@ $big-height-size: 104px;
 $big-width-size: 64px;
 $all-height: 300px;
 $out-height: 32px;
+$out-width: 32px;
+$footer-height: 64px;
+$select-size: 96px;
+$effect: 3px;
+$groove: 1px;
+$main-item-width: 50%;
 
 .l-header {
   text-align: center;
@@ -30,26 +36,26 @@ $out-height: 32px;
 }
 
 .l-select {
-  height: 96px;
+  height: $select-size;
   display: flex;
   justify-content: center;
   .size {
-    width: 96px;
-    height: 96px;
+    width: $select-size;
+    height: $select-size;
     background-color: $main-color;
-    border-radius: 96px;
+    border-radius: $select-size;
     color: $base-color;
     text-align: center;
-    line-height: 96px;
+    line-height: $select-size;
     &:hover {
       cursor: pointer;
-      box-shadow: 0 3px 3px 0 #696969;
-      transform: translateY(-3px);
+      box-shadow: 0 $effect $effect 0 #696969;
+      transform: translateY(-$effect);
       opacity: 0.7;
       &:active {
         box-shadow: none;
-        transform: translateY(3px);
-        opacity: 1;
+        transform: translateY($effect);
+        opacity: $groove;
         background-color: #696969;
       }
     }
@@ -60,18 +66,18 @@ $out-height: 32px;
 }
 
 footer {
-  height: 64px;
+  height: $footer-height;
   background-color: $main-color;
   color: $base-color;
   text-align: center;
-  line-height: 64px;
+  line-height: $footer-height;
 }
 
 .l-main {
   height: 480px;
   display: flex;
   .l-primary {
-    width: 50%;
+    width: $main-item-width;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,15 +89,15 @@ footer {
       align-items: center;
     }
     .left-out,.right-out {
-      width: 32px;
+      width: $out-width;
       height: $all-height;
       .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
         height: $small-size;
-        margin: 1px;
+        margin: $groove;
       }
       .out-two,.out-five {
         height: $big-height-size;
-        margin: 1px;
+        margin: $groove;
       }
     }
     .one,.three,.four,.six,.seven,.nine,.ten,.twelve {
@@ -99,17 +105,17 @@ footer {
       height: $all-height;
       .top-out,.bottom-out {
         height: $small-size;
-        margin: 1px;
+        margin: $groove;
       }
       .out-one,.out-three,.out-four,.out-six {
         height: $small-size;
         background-color: $main-color;
-        margin: 1px;
+        margin: $groove;
       }
       .out-two,.out-five {
         height: $big-height-size;
         background-color: $main-color;
-        margin: 1px;
+        margin: $groove;
       }
     }
     .two,.five,.eight,.eleven {
@@ -117,22 +123,22 @@ footer {
       height: $all-height;
       .top-out,.bottom-out {
         height: $small-size;
-        margin: 1px;
+        margin: $groove;
       }
       .out-one,.out-three,.out-four,.out-six {
         height: $small-size;
         background-color: $main-color;
-        margin: 1px;
+        margin: $groove;
       }
       .out-two,.out-five {
         height: $big-height-size;
         background-color: $main-color;
-        margin: 1px;
+        margin: $groove;
       }
     }
   }
   .l-secondary {
-    width: 50%;
+    width: $main-item-width;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,15 +147,15 @@ footer {
       align-items: center;
     }
     .left-out,.right-out {
-      width: 32px;
+      width: $out-width;
       height: $all-height;
       .top-out,.out-one,.out-three,.out-four,.out-six,.bottom-out {
         height: $small-size;
-        margin: 1px;
+        margin: $groove;
       }
       .out-two,.out-five {
         height: $big-height-size;
-        margin: 1px;
+        margin: $groove;
       }
     }
     .one,.three,.four,.six,.seven,.nine,.ten,.twelve {
@@ -157,17 +163,17 @@ footer {
       height: $all-height;
       .top-out,.bottom-out {
         height: $small-size;
-        margin: 1px;
+        margin: $groove;
       }
       .out-one,.out-three,.out-four,.out-six {
         height: $small-size;
         background-color: $main-color;
-        margin: 1px;
+        margin: $groove;
       }
       .out-two,.out-five {
         height: $big-height-size;
         background-color: $main-color;
-        margin: 1px;
+        margin: $groove;
       }
     }
     .two,.five,.eight,.eleven {
@@ -175,17 +181,17 @@ footer {
       height: $all-height;
       .top-out,.bottom-out {
         height: $small-size;
-        margin: 1px;
+        margin: $groove;
       }
       .out-one,.out-three,.out-four,.out-six {
         height: $small-size;
         background-color: $main-color;
-        margin: 1px;
+        margin: $groove;
       }
       .out-two,.out-five {
         height: $big-height-size;
         background-color: $main-color;
-        margin: 1px;
+        margin: $groove;
       }
     }
   }

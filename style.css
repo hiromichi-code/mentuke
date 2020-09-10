@@ -52,7 +52,7 @@ body {
           box-shadow: none;
   -webkit-transform: translateY(3px);
           transform: translateY(3px);
-  opacity: 1;
+  opacity: 1px;
   background-color: #696969;
 }
 
