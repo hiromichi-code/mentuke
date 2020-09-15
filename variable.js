@@ -1,29 +1,37 @@
 'use strict';
 
-const A4Height = 297;
-const A4Width = 210;
-const A5Height = 210;
-const A5Width = 148;
-const A6Height = 148;
-const A6Width = 105;
-const B5Height = 257;
-const B5Width = 182;
-const fourSixHeight = 188;
-const fourSixWidth = 128;
-const B6Height = 182;
-const B6Width = 128;
+const bookSizeHight = {
+  A4:297,
+  A5:210,
+  A6:148,
+  B5:257,
+  FourSix:188,
+  B6:182
+}
 
-const kAllLong = 939;
-const kAllShort = 636;
-const aAllLong = 880;
-const aAllShort = 625;
-const kHalfLong = 636;
-const kHalfShort = 469;
-const aHalfLong = 625;
-const aHalfShort = 440;
-const fourSixHalfLong = 788;
-const fourSixHalfShort = 545;
-const bHalfLong = 765;
-const bHalfShort = 542;
+const bookSizeWidth = {
+  A4:210,
+  A5:148,
+  A6:105,
+  B5:182,
+  FourSix:128,
+  B6:128
+}
 
+const paperSizeLong = {
+  kAll:939,
+  aAll:880,
+  kHalf:636,
+  aHalf:625,
+  FourSixHalf:788,
+  bHalf:765
+}
 
+const paperSizeShort = {
+  kAll:636,
+  aAll:625,
+  kHalf:469,
+  aHalf:440,
+  FourSixHalf:545,
+  bHalf:542
+}
