@@ -39,30 +39,35 @@ $alert-size: 32px;
 .l-select {
   height: $select-size;
   display: flex;
-  justify-content: center;
-  .size {
-    width: $select-size;
-    height: $select-size;
-    background-color: $main-color;
-    border-radius: $select-size;
-    color: $base-color;
-    text-align: center;
-    line-height: $select-size;
-    font-size: 12px;
-    &:hover {
-      cursor: pointer;
-      box-shadow: 0 $effect $effect 0 #696969;
-      transform: translateY(-$effect);
-      opacity: 0.7;
-      &:active {
-        box-shadow: none;
-        transform: translateY($effect);
-        opacity: $groove;
-        background-color: #696969;
+  .l-size {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .size {
+      margin-left: 4px;
+      width: $select-size;
+      height: $select-size/2;
+      background-color: $main-color;
+      border-radius: $effect;
+      color: $base-color;
+      text-align: center;
+      line-height: $select-size/2;
+      font-size: 12px;
+      &:hover {
+        cursor: pointer;
+        box-shadow: 0 $effect $effect 0 #696969;
+        transform: translateY(-$effect);
+        opacity: 0.7;
+        &:active {
+          box-shadow: none;
+          transform: translateY($effect);
+          opacity: $groove;
+          background-color: #696969;
+        }
       }
     }
   }
-}
+  }
 
 footer {
   height: $footer-height;

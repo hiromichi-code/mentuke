@@ -23,23 +23,32 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-.l-select .size {
+.l-select .l-size {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-select .l-size .size {
+  margin-left: 4px;
   width: 48px;
-  height: 48px;
+  height: 24px;
   background-color: #006400;
-  border-radius: 48px;
+  border-radius: 3px;
   color: #fff;
   text-align: center;
-  line-height: 48px;
+  line-height: 24px;
   font-size: 12px;
 }
 
-.l-select .size:hover {
+.l-select .l-size .size:hover {
   cursor: pointer;
   -webkit-box-shadow: 0 3px 3px 0 #696969;
           box-shadow: 0 3px 3px 0 #696969;
@@ -48,7 +57,7 @@ body {
   opacity: 0.7;
 }
 
-.l-select .size:hover:active {
+.l-select .l-size .size:hover:active {
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transform: translateY(3px);
