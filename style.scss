@@ -1,3 +1,34 @@
+@mixin button {
+  margin: $select-margin;
+  width: $select-size;
+  height: $select-size/2;
+  background-color: $base-color;
+  border: thin solid $main-color;
+  border-radius: $effect;
+  color: $main-color;
+  text-align: center;
+  line-height: $select-size/2;
+  font-size: $select-font-size;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 $effect $effect 0 #696969;
+    transform: translateY(-$effect);
+    opacity: 0.7;
+    &:active {
+      box-shadow: none;
+      transform: translateY($effect);
+      opacity: $groove;
+      background-color: #696969;
+    }
+  }
+}
+
+@mixin l-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 body {
   height: 100vh;
   margin: 0;
@@ -44,32 +75,9 @@ $alert-size: 32px;
   height: $l-select-size;
   display: flex;
   .l-size {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include l-button;
     .size {
-      margin: $select-margin;
-      width: $select-size;
-      height: $select-size/2;
-      background-color: $base-color;
-      border: thin solid $main-color;
-      border-radius: $effect;
-      color: $main-color;
-      text-align: center;
-      line-height: $select-size/2;
-      font-size: $select-font-size;
-      &:hover {
-        cursor: pointer;
-        box-shadow: 0 $effect $effect 0 #696969;
-        transform: translateY(-$effect);
-        opacity: 0.7;
-        &:active {
-          box-shadow: none;
-          transform: translateY($effect);
-          opacity: $groove;
-          background-color: #696969;
-        }
-      }
+      @include button;
     }
   }
 }
@@ -78,32 +86,9 @@ $alert-size: 32px;
   height: $l-select-size;
   display: flex;
   .l-method {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include l-button;
     .method {
-      margin: $select-margin;
-      width: $select-size;
-      height: $select-size/2;
-      background-color: $main-color;
-      border: thin solid $main-color;
-      border-radius: $effect;
-      color: $base-color;
-      text-align: center;
-      line-height: $select-size/2;
-      font-size: $select-font-size;
-      &:hover {
-        cursor: pointer;
-        box-shadow: 0 $effect $effect 0 #696969;
-        transform: translateY(-$effect);
-        opacity: 0.7;
-        &:active {
-          box-shadow: none;
-          transform: translateY($effect);
-          opacity: $groove;
-          background-color: #696969;
-        }
-      }
+      @include button;
     }
   }
 }
@@ -112,32 +97,9 @@ $alert-size: 32px;
   height: $l-select-size;
   display: flex;
   .l-direction {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include l-button;
     .direction {
-      margin: $select-margin;
-      width: $select-size;
-      height: $select-size/2;
-      background-color: $base-color;
-      border: thin solid $main-color;
-      border-radius: $effect;
-      color: $main-color;
-      text-align: center;
-      line-height: $select-size/2;
-      font-size: $select-font-size;
-      &:hover {
-        cursor: pointer;
-        box-shadow: 0 $effect $effect 0 #696969;
-        transform: translateY(-$effect);
-        opacity: 0.7;
-        &:active {
-          box-shadow: none;
-          transform: translateY($effect);
-          opacity: $groove;
-          background-color: #696969;
-        }
-      }
+      @include button;
     }
   }
 }
