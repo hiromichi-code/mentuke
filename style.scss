@@ -6,20 +6,23 @@ body {
 }
 
 $main-color: #006400;
-$header-height: 128px;
+$header-height: 112px;
 $base-color: #fff;
-$h1-size: 64px;
+$h1-size: 48px;
 $small-size: 20px;
 $big-height-size: 104px;
 $big-width-size: 80px;
 $all-height: 300px;
 $out-height: 32px;
 $out-width: 32px;
+$paper-size-height: 64px;
 $footer-height: 64px;
-$select-size: 96px;
+$select-size: 48px;
 $effect: 3px;
 $groove: 1px;
 $main-item-width: 50%;
+$alert-color: red;
+$alert-size: 32px;
 
 .l-header {
   text-align: center;
@@ -45,6 +48,7 @@ $main-item-width: 50%;
     color: $base-color;
     text-align: center;
     line-height: $select-size;
+    font-size: 12px;
     &:hover {
       cursor: pointer;
       box-shadow: 0 $effect $effect 0 #696969;
@@ -66,6 +70,16 @@ footer {
   color: $base-color;
   text-align: center;
   line-height: $footer-height;
+}
+
+.paper-size {
+  height: $paper-size-height;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: $alert-color;
+  font-size: $alert-size;
+  font-weight: bold;
 }
 
 .l-main {

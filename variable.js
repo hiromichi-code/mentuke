@@ -35,3 +35,21 @@ const paperSizeShort = {
   fourSixHalf:　545,
   bHalf:　542
 }
+
+const paperSizeLeft = {
+  A4: "菊全",
+  A5: "菊半裁",
+  A6: "菊四裁",
+  B5: "四六半裁",
+  fourSix: "四六四裁",
+  B6: "四六四裁"
+}
+
+const paperSizeRight = {
+  A4: "A全",
+  A5: "A半裁",
+  A6: "A四裁",
+  B5: "B半裁",
+  fourSix: "B四裁",
+  B6: "B四裁"
+}

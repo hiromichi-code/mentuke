@@ -7,19 +7,19 @@ body {
 
 .l-header {
   text-align: center;
-  line-height: 128px;
-  height: 128px;
+  line-height: 112px;
+  height: 112px;
   background-color: #006400;
 }
 
 .l-header h1 {
   margin: 0;
   color: #fff;
-  font-size: 64px;
+  font-size: 48px;
 }
 
 .l-select {
-  height: 96px;
+  height: 48px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,13 +29,14 @@ body {
 }
 
 .l-select .size {
-  width: 96px;
-  height: 96px;
+  width: 48px;
+  height: 48px;
   background-color: #006400;
-  border-radius: 96px;
+  border-radius: 48px;
   color: #fff;
   text-align: center;
-  line-height: 96px;
+  line-height: 48px;
+  font-size: 12px;
 }
 
 .l-select .size:hover {
@@ -62,6 +63,21 @@ footer {
   color: #fff;
   text-align: center;
   line-height: 64px;
+}
+
+.paper-size {
+  height: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: red;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .l-main {
