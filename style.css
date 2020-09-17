@@ -7,25 +7,25 @@ body {
 
 .l-header {
   text-align: center;
-  line-height: 112px;
-  height: 112px;
+  line-height: 64px;
+  height: 64px;
   background-color: #006400;
 }
 
 .l-header h1 {
   margin: 0;
   color: #fff;
-  font-size: 48px;
+  font-size: 32px;
 }
 
-.l-select {
-  height: 48px;
+.l-select-primary {
+  height: 52px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.l-select .l-size {
+.l-select-primary .l-size {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,19 +36,20 @@ body {
           align-items: center;
 }
 
-.l-select .l-size .size {
-  margin-left: 4px;
-  width: 48px;
-  height: 24px;
-  background-color: #006400;
+.l-select-primary .l-size .size {
+  margin: 8px;
+  width: 72px;
+  height: 36px;
+  background-color: #fff;
+  border: thin solid #006400;
   border-radius: 3px;
-  color: #fff;
+  color: #006400;
   text-align: center;
-  line-height: 24px;
-  font-size: 12px;
+  line-height: 36px;
+  font-size: 16px;
 }
 
-.l-select .l-size .size:hover {
+.l-select-primary .l-size .size:hover {
   cursor: pointer;
   -webkit-box-shadow: 0 3px 3px 0 #696969;
           box-shadow: 0 3px 3px 0 #696969;
@@ -57,7 +58,105 @@ body {
   opacity: 0.7;
 }
 
-.l-select .l-size .size:hover:active {
+.l-select-primary .l-size .size:hover:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  opacity: 1px;
+  background-color: #696969;
+}
+
+.l-select-secondary {
+  height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.l-select-secondary .l-method {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-select-secondary .l-method .method {
+  margin: 8px;
+  width: 72px;
+  height: 36px;
+  background-color: #006400;
+  border: thin solid #006400;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  line-height: 36px;
+  font-size: 16px;
+}
+
+.l-select-secondary .l-method .method:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 3px 3px 0 #696969;
+          box-shadow: 0 3px 3px 0 #696969;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  opacity: 0.7;
+}
+
+.l-select-secondary .l-method .method:hover:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  opacity: 1px;
+  background-color: #696969;
+}
+
+.l-select-tertiary {
+  height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.l-select-tertiary .l-direction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-select-tertiary .l-direction .direction {
+  margin: 8px;
+  width: 72px;
+  height: 36px;
+  background-color: #fff;
+  border: thin solid #006400;
+  border-radius: 3px;
+  color: #006400;
+  text-align: center;
+  line-height: 36px;
+  font-size: 16px;
+}
+
+.l-select-tertiary .l-direction .direction:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 3px 3px 0 #696969;
+          box-shadow: 0 3px 3px 0 #696969;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  opacity: 0.7;
+}
+
+.l-select-tertiary .l-direction .direction:hover:active {
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transform: translateY(3px);
@@ -87,10 +186,11 @@ footer {
   color: red;
   font-size: 32px;
   font-weight: bold;
+  padding: 0;
 }
 
 .l-main {
-  height: 480px;
+  height: 432px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
