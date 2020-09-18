@@ -96,6 +96,8 @@ body {
   text-align: center;
   line-height: 36px;
   font-size: 16px;
+  background-color: #006400;
+  color: #fff;
 }
 
 .l-select-secondary .l-method .method:hover {

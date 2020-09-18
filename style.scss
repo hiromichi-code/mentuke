@@ -89,6 +89,8 @@ $alert-size: 32px;
     @include l-button;
     .method {
       @include button;
+      background-color: $main-color;
+      color: $base-color;
     }
   }
 }
