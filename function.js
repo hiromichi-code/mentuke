@@ -1,11 +1,13 @@
 'use strict';
 
+// サイズ選択処理に利用する定数
 const bookSize = document.querySelectorAll(".size");
 const valueHeight = document.querySelectorAll(".height");
 const valueWidth = document.querySelectorAll(".width");
 const valueLeft = document.querySelectorAll(".paper-size-left");
 const valueRight = document.querySelectorAll(".paper-size-right");
 
+// サイズ選択に対する処理
 bookSize.forEach(element => {
   element.onclick = function(){
     let height = 0;
@@ -57,4 +59,6 @@ bookSize.forEach(element => {
     });
   }
 });
+
+
 
