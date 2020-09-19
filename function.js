@@ -61,4 +61,30 @@ bookSize.forEach(element => {
 });
 
 
+// 製本方法処理に利用する定数
+const methodBookBinding = document.querySelectorAll(".method");
+const methodOutLeft = document.querySelectorAll(".method-out-left");
+const methodInLeft = document.querySelectorAll(".method-in-left");
+const methodShaveLeft = document.querySelectorAll(".method-shave-left");
+const methodClipLeft = document.querySelectorAll(".method-clip-left");
+const methodClipOutLeft = document.querySelectorAll(".method-clip-out-left");
+const methodMarginLeft = document.querySelectorAll(".method-margin-left");
+const methodOutRight = document.querySelectorAll(".method-out-right");
+const methodInRight = document.querySelectorAll(".method-in-right");
+const methodShaveRight = document.querySelectorAll(".method-shave-right");
+const methodClipRight = document.querySelectorAll(".method-clip-right");
+const methodClipOutRight = document.querySelectorAll(".method-clip-out-right");
+const methodMarginRight = document.querySelectorAll(".method-margin-right");
+
+methodBookBinding.forEach(element => {
+  element.onclick = function(){
+    let long = 0;
+    let short = 0;
+    if(element.innerHTML === "無線"){
+
+    }
+  }
+});
+
+
 
