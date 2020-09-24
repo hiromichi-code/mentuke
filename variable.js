@@ -23,8 +23,12 @@ const paperSizeLong = {
   aAll:　880,
   kHalf:　636,
   aHalf:　625,
+  kFourHalf: 469,
+  aFourHalf: 440,
   fourSixHalf:　788,
-  bHalf:　765
+  bHalf:　765,
+  fourSixHalfHalf: 545,
+  bHalfHalf:　542
 }
 
 const paperSizeShort = {
@@ -32,8 +36,12 @@ const paperSizeShort = {
   aAll:　625,
   kHalf:　469,
   aHalf:　440,
+  kFourHalf: 318,
+  aFourHalf: 312,
   fourSixHalf:　545,
-  bHalf:　542
+  bHalf:　542,
+  fourSixHalfHalf:　394,
+  bHalfHalf:　382
 }
 
 const paperSizeLeft = {
