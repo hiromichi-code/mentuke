@@ -196,6 +196,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: small;
 }
 
 .l-main .top-out {
@@ -308,6 +309,9 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .l-main .l-secondary .left-out, .l-main .l-secondary .right-out {

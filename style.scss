@@ -128,6 +128,7 @@ footer {
 .l-main {
   height: $main-height;
   display: flex;
+  font-size: small;
   .top-out {
     text-align: center;
   }
@@ -201,6 +202,7 @@ footer {
     .left-out>.out-one,.out-two,.out-three,.out-four,.out-five,.out-six {
       display: flex;
       align-items: center;
+      justify-content: flex-end;
     }
     .left-out,.right-out {
       width: $out-width;

@@ -105,11 +105,53 @@ const methodShaveRight = document.querySelectorAll(".method-shave-right");
 const methodClipRight = document.querySelectorAll(".method-clip-right");
 const methodClipOutRight = document.querySelectorAll(".method-clip-out-right");
 const methodMarginRight = document.querySelectorAll(".method-margin-right");
+const shaving = 3;
+const methodMargin = 3;
+const countHight = 2;
+const countWidth = 4;
+const clipMargin = 15;
 
 methodBookBinding.forEach(methodElement => {
   methodElement.onclick = function(){
     if(methodElement.innerHTML === "無線"){
-    
+      if(selectBookSize === "A4"){
+        methodOutLeft.forEach(ele => {
+          ele.textContent = Math.floor(((leftLong-shaving*countWidth)-bookSizeWidth["A4"]*countWidth)/countWidth);
+        });
+        methodInLeft.forEach(ele => {
+          ele.textContent = Math.floor(((leftLong-shaving*countWidth)-bookSizeWidth["A4"]*countWidth)/countWidth);
+        });
+        methodShaveLeft.forEach(ele => {
+          ele.textContent = shaving;
+        });
+        methodClipLeft.forEach(ele => {
+          ele.textContent = clipMargin;
+        });
+        methodMarginLeft.forEach(ele => {
+          ele.textContent = methodMargin;
+        });
+        methodClipOutLeft.forEach(ele => {
+          ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["A4"]*countHight)-clipMargin);
+        });
+        methodOutRight.forEach(ele => {
+          ele.textContent = Math.floor(((rightLong-shaving*countWidth)-bookSizeWidth["A4"]*countWidth)/countWidth);
+        });
+        methodInRight.forEach(ele => {
+          ele.textContent = Math.floor(((rightLong-shaving*countWidth)-bookSizeWidth["A4"]*countWidth)/countWidth);
+        });
+        methodShaveRight.forEach(ele => {
+          ele.textContent = shaving;
+        });
+        methodClipRight.forEach(ele => {
+          ele.textContent = clipMargin;
+        });
+        methodMarginRight.forEach(ele => {
+          ele.textContent = methodMargin;
+        });
+        methodClipOutRight.forEach(ele => {
+          ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["A4"]*countHight)-clipMargin);
+        });
+      }
     }
   }
 });
