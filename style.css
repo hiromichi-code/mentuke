@@ -283,10 +283,17 @@ footer {
 }
 
 .l-main .l-primary .two .out-two, .l-main .l-primary .two .out-five, .l-main .l-primary .five .out-two, .l-main .l-primary .five .out-five, .l-main .l-primary .eight .out-two, .l-main .l-primary .eight .out-five, .l-main .l-primary .eleven .out-two, .l-main .l-primary .eleven .out-five {
+  font-size: 48px;
   height: 104px;
   background-color: #fff;
   margin: 1px;
   color: #3cb371;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .l-main .l-secondary {
@@ -372,5 +379,13 @@ footer {
   background-color: #fff;
   margin: 1px;
   color: #3cb371;
+  font-size: 48px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

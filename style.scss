@@ -38,6 +38,7 @@ body {
 
 $main-height: 432px;
 $main-color: #3cb371;
+$main-font-size: 48px;
 $header-height: 68px;
 $base-color: #fff;
 $h1-size: 32px;
@@ -187,10 +188,13 @@ footer {
         margin: $groove;
       }
       .out-two,.out-five {
+        font-size: $main-font-size;
         height: $big-height-size;
         background-color: $base-color;
         margin: $groove;
-        color: $main-color
+        color: $main-color;
+        display: flex;
+        justify-content: center;
       }
     }
   }
@@ -251,6 +255,10 @@ footer {
         background-color: $base-color;
         margin: $groove;
         color: $main-color;
+        font-size: $main-font-size;
+        text-align: center;
+        display: flex;
+        justify-content: center;
       }
     }
   }
