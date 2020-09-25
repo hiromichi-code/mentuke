@@ -8,7 +8,7 @@ const left = document.querySelectorAll(".paper-size-left");
 const right = document.querySelectorAll(".paper-size-right");
 
 // サイズ選択に対する処理
-// let selectBookSize = "";
+let selectBookSize = "";
 let leftLong = 0;
 let leftShort = 0;
 let rightLong = 0;
@@ -19,7 +19,7 @@ bookSize.forEach(bookSizeElement => {
     let width1 = 0;
     let left1 = 0;
     let right1 = 0;
-    // selectBookSize = bookSizeElement.innerHTML;
+    selectBookSize = bookSizeElement.innerHTML;
     if(bookSizeElement.innerHTML === "A4"){
       height1 = bookSizeHight["A4"];
       width1  = bookSizeWidth["A4"];

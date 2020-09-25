@@ -55,6 +55,23 @@ directionValue.forEach(directionElement => {
       directionFourteen.innerHTML === pageNumber["fourteen"];
       directionFifteen.innerHTML === pageNumber["fifteen"];
       directionSixteen.innerHTML === pageNumber["sixteen"];
+    } else if(directionElement.innerHTML === "右綴じ") {
+      directionOne.innerHTML === pageNumber["one"];
+      directionTwo.innerHTML === pageNumber["two"];
+      directionThree.innerHTML === pageNumber["three"];
+      directionFour.innerHTML === pageNumber["four"];
+      directionFive.innerHTML === pageNumber["five"];
+      directionSix.innerHTML === pageNumber["six"];
+      directionSeven.innerHTML === pageNumber["seven"];
+      directionEight.innerHTML === pageNumber["eight"];
+      directionNine.innerHTML === pageNumber["nine"];
+      directionTen.innerHTML === pageNumber["ten"];
+      directionEleven.innerHTML === pageNumber["eleven"];
+      directionTwelve.innerHTML === pageNumber["twelve"];
+      directionThirteen.innerHTML === pageNumber["thirteen"];
+      directionFourteen.innerHTML === pageNumber["fourteen"];
+      directionFifteen.innerHTML === pageNumber["fifteen"];
+      directionSixteen.innerHTML === pageNumber["sixteen"];
     }
   }
 });
