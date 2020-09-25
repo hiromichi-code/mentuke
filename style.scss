@@ -37,7 +37,7 @@ body {
 }
 
 $main-height: 432px;
-$main-color: #006400;
+$main-color: #3cb371;
 $header-height: 68px;
 $base-color: #fff;
 $h1-size: 32px;
@@ -188,7 +188,7 @@ footer {
       }
       .out-two,.out-five {
         height: $big-height-size;
-        background-color: $main-color;
+        background-color: $base-color;
         margin: $groove;
         color: $base-color
       }
@@ -248,7 +248,7 @@ footer {
       }
       .out-two,.out-five {
         height: $big-height-size;
-        background-color: $main-color;
+        background-color: $base-color;
         margin: $groove;
         color: $base-color;
       }
