@@ -263,3 +263,7 @@ footer {
     }
   }
 }
+
+.direction-seven-left,.direction-ten-left,.direction-eleven-left,.direction-six-left,.direction-five-left,.direction-twelve-left,.direction-nine-left,.direction-eight-left {
+  transform: rotate(180deg);
+}
