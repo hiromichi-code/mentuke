@@ -56,7 +56,7 @@ directionValue.forEach(directionElement => {
       directionFourteen.innerHTML = pageNumber["fourteen"];
       directionFifteen.innerHTML = pageNumber["fifteen"];
       directionSixteen.innerHTML = pageNumber["sixteen"];
-      rotateDirection.forEach(element, index => {
+      rotateDirection.forEach((element, index) => {
         if(index % 2 === 0){
           element.style.transform = 'rotate(180deg)';
         } else {
@@ -80,6 +80,13 @@ directionValue.forEach(directionElement => {
       directionFourteen.innerHTML = pageNumber["fourteen"];
       directionFifteen.innerHTML = pageNumber["fifteen"];
       directionSixteen.innerHTML = pageNumber["sixteen"];
+      rotateDirection.forEach((element, index) => {
+        if(index % 2 === 0){
+          element.style.transform = 'rotate(0deg)';
+        } else {
+          element.style.transform = 'rotate(180deg)';
+        }
+      });
     }
   }
 });
