@@ -119,9 +119,19 @@ methodBookBinding.forEach(methodElement => {
       if(selectBookSize === "A4"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor(((leftLong-shaving*countWidth)-bookSizeWidth["A4"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor(((leftLong-shaving*countWidth)-bookSizeWidth["A4"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = shaving;
@@ -134,12 +144,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["A4"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor(((rightLong-shaving*countWidth)-bookSizeWidth["A4"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor(((rightLong-shaving*countWidth)-bookSizeWidth["A4"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = shaving;
@@ -152,13 +177,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["A4"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "A5"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor(((leftLong-shaving*countWidth)-bookSizeWidth["A5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor(((leftLong-shaving*countWidth)-bookSizeWidth["A5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = shaving;
@@ -171,12 +211,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["A5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor(((rightLong-shaving*countWidth)-bookSizeWidth["A5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor(((rightLong-shaving*countWidth)-bookSizeWidth["A5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = shaving;
@@ -189,13 +244,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["A5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "A6"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor(((leftLong-shaving*countWidth)-bookSizeWidth["A6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor(((leftLong-shaving*countWidth)-bookSizeWidth["A6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = shaving;
@@ -208,12 +278,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["A6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor(((rightLong-shaving*countWidth)-bookSizeWidth["A6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor(((rightLong-shaving*countWidth)-bookSizeWidth["A6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = shaving;
@@ -226,13 +311,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["A6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "B5"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor(((leftLong-shaving*countWidth)-bookSizeWidth["B5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor(((leftLong-shaving*countWidth)-bookSizeWidth["B5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = shaving;
@@ -245,12 +345,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["B5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor(((rightLong-shaving*countWidth)-bookSizeWidth["B5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor(((rightLong-shaving*countWidth)-bookSizeWidth["B5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = shaving;
@@ -263,13 +378,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["B5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "B6"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor(((leftLong-shaving*countWidth)-bookSizeWidth["B6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor(((leftLong-shaving*countWidth)-bookSizeWidth["B6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = shaving;
@@ -282,12 +412,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["B6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor(((rightLong-shaving*countWidth)-bookSizeWidth["B6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor(((rightLong-shaving*countWidth)-bookSizeWidth["B6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = shaving;
@@ -300,13 +445,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["B6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "四六判"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor(((leftLong-shaving*countWidth)-bookSizeWidth["fourSix"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor(((leftLong-shaving*countWidth)-bookSizeWidth["fourSix"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = shaving;
@@ -319,12 +479,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["fourSix"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor(((rightLong-shaving*countWidth)-bookSizeWidth["fourSix"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor(((rightLong-shaving*countWidth)-bookSizeWidth["fourSix"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = shaving;
@@ -337,15 +512,30 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["fourSix"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       }
     } else if(methodElement.innerHTML === "アジロ"){
       if(selectBookSize === "A4"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A4"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A4"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -358,12 +548,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["A4"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A4"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A4"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -376,13 +581,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["A4"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "A5"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -395,12 +615,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["A5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -413,13 +648,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["A5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "A6"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -432,12 +682,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["A6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -450,13 +715,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["A6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "B5"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["B5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["B5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -469,12 +749,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["B5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["B5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["B5"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -487,13 +782,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["B5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "B6"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["B6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["B6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -506,12 +816,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["B6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["B6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["B6"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -524,13 +849,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["B6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "四六判"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["fourSix"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["fourSix"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -543,12 +883,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["fourSix"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["fourSix"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["fourSix"]*countWidth)/countWidth);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -561,15 +916,30 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["fourSix"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       }
     } else if(methodElement.innerHTML === "糸かがり"){
       if(selectBookSize === "A4"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A4"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A4"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -582,12 +952,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["A4"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A4"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A4"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -600,13 +985,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["A4"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "A5"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A5"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A5"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -619,12 +1019,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["A5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A5"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A5"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -637,13 +1052,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["A5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "A6"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A6"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A6"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -656,12 +1086,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["A6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A6"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A6"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -674,13 +1119,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["A6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "B5"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["B5"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["B5"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -693,12 +1153,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["B5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["B5"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["B5"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -711,13 +1186,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["B5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "B6"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["B6"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["B6"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -730,12 +1220,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["B6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["B6"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["B6"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -748,13 +1253,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["B6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "四六判"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["fourSix"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["fourSix"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -767,12 +1287,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["fourSix"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["fourSix"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["fourSix"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -785,15 +1320,30 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["fourSix"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       }
     } else if(methodElement.innerHTML === "中綴じ"){
       if(selectBookSize === "A4"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A4"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A4"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -806,12 +1356,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["A4"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A4"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A4"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -824,13 +1389,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["A4"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "A5"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A5"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A5"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -843,12 +1423,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["A5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A5"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A5"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -861,13 +1456,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["A5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "A6"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A6"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["A6"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -880,12 +1490,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["A6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A6"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["A6"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -898,13 +1523,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["A6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "B5"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["B5"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["B5"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -917,12 +1557,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["B5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["B5"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["B5"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -935,13 +1590,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["B5"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "B6"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["B6"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["B6"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -954,12 +1624,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["B6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["B6"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["B6"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -972,13 +1657,28 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["B6"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       } else if(selectBookSize === "四六判"){
         methodOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["fourSix"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInLeft.forEach(ele => {
           ele.textContent = Math.floor((leftLong-bookSizeWidth["fourSix"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveLeft.forEach(ele => {
           ele.textContent = noShaving;
@@ -991,12 +1691,27 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutLeft.forEach(ele => {
           ele.textContent = Math.floor((leftShort-methodMargin*countHight)-(bookSizeHight["fourSix"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["fourSix"]*countWidth)/countWidth-rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodInRight.forEach(ele => {
           ele.textContent = Math.floor((rightLong-bookSizeWidth["fourSix"]*countWidth)/countWidth+rap);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
         methodShaveRight.forEach(ele => {
           ele.textContent = noShaving;
@@ -1009,6 +1724,11 @@ methodBookBinding.forEach(methodElement => {
         });
         methodClipOutRight.forEach(ele => {
           ele.textContent = Math.floor((rightShort-methodMargin*countHight)-(bookSizeHight["fourSix"]*countHight)-clipMargin);
+          if(ele.textContent < 3){
+            ele.style.color = 'red';
+          }else {
+            ele.style.color = 'black';
+          }
         });
       }
     }
