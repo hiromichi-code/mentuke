@@ -35,6 +35,7 @@ const pageNumber = {
   fifteen: 15,
   sixteen: 16
 }
+const rotateDirection = document.querySelectorAll(".rotate-direction");
 
 directionValue.forEach(directionElement => {
   directionElement.onclick = function(){
@@ -55,6 +56,13 @@ directionValue.forEach(directionElement => {
       directionFourteen.innerHTML = pageNumber["fourteen"];
       directionFifteen.innerHTML = pageNumber["fifteen"];
       directionSixteen.innerHTML = pageNumber["sixteen"];
+      rotateDirection.forEach(element, index => {
+        if(index % 2 === 0){
+          element.style.transform = 'rotate(180deg)';
+        } else {
+          element.style.transform = 'rotate(0deg)';
+        }
+      });
     } else if(directionElement.innerHTML === "右綴じ") {
       directionOne.innerHTML = pageNumber["one"];
       directionTwo.innerHTML = pageNumber["two"];
