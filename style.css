@@ -388,9 +388,4 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
-.direction-seven-left, .direction-ten-left, .direction-eleven-left, .direction-six-left, .direction-five-left, .direction-twelve-left, .direction-nine-left, .direction-eight-left {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
 /*# sourceMappingURL=style.css.map */
