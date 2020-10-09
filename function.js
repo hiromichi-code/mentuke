@@ -141,18 +141,6 @@ bookSize.forEach(bookSizeElement => {
 
 // 製本方法処理に利用する定数
 const methodBookBinding = document.querySelectorAll(".method");
-// const methodOutLeft = document.querySelectorAll(".method-out-left");
-// const methodInLeft = document.querySelectorAll(".method-in-left");
-// const methodShaveLeft = document.querySelectorAll(".method-shave-left");
-// const methodClipLeft = document.querySelectorAll(".method-clip-left");
-// const methodClipOutLeft = document.querySelectorAll(".method-clip-out-left");
-// const methodMarginLeft = document.querySelectorAll(".method-margin-left");
-// const methodOutRight = document.querySelectorAll(".method-out-right");
-// const methodInRight = document.querySelectorAll(".method-in-right");
-// const methodShaveRight = document.querySelectorAll(".method-shave-right");
-// const methodClipRight = document.querySelectorAll(".method-clip-right");
-// const methodClipOutRight = document.querySelectorAll(".method-clip-out-right");
-// const methodMarginRight = document.querySelectorAll(".method-margin-right");
 const shaving = 3;
 const noShaving = 0;
 const methodMargin = 3;
