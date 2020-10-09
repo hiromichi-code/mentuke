@@ -6,6 +6,18 @@ const height = document.querySelectorAll(".height");
 const width = document.querySelectorAll(".width");
 const left = document.querySelectorAll(".paper-size-left");
 const right = document.querySelectorAll(".paper-size-right");
+const methodOutLeft = document.querySelectorAll(".method-out-left");
+const methodInLeft = document.querySelectorAll(".method-in-left");
+const methodShaveLeft = document.querySelectorAll(".method-shave-left");
+const methodClipLeft = document.querySelectorAll(".method-clip-left");
+const methodClipOutLeft = document.querySelectorAll(".method-clip-out-left");
+const methodMarginLeft = document.querySelectorAll(".method-margin-left");
+const methodOutRight = document.querySelectorAll(".method-out-right");
+const methodInRight = document.querySelectorAll(".method-in-right");
+const methodShaveRight = document.querySelectorAll(".method-shave-right");
+const methodClipRight = document.querySelectorAll(".method-clip-right");
+const methodClipOutRight = document.querySelectorAll(".method-clip-out-right");
+const methodMarginRight = document.querySelectorAll(".method-margin-right");
 
 // サイズ選択に対する処理
 let selectBookSize = "";
@@ -87,24 +99,60 @@ bookSize.forEach(bookSizeElement => {
     right.forEach(ele => {
       ele.textContent = right1;
     });
+    methodOutLeft.forEach(ele => {
+      ele.textContent = "";
+    });
+    methodInLeft.forEach(ele => {
+      ele.textContent = "";
+    });
+    methodShaveLeft.forEach(ele => {
+      ele.textContent = "";
+    });
+    methodClipLeft.forEach(ele => {
+      ele.textContent = "";
+    });
+    methodClipOutLeft.forEach(ele => {
+      ele.textContent = "";
+    });
+    methodMarginLeft.forEach(ele => {
+      ele.textContent = "";
+    });
+    methodOutRight.forEach(ele => {
+      ele.textContent = "";
+    });
+    methodInRight.forEach(ele => {
+      ele.textContent = "";
+    });
+    methodShaveRight.forEach(ele => {
+      ele.textContent = "";
+    });
+    methodClipRight.forEach(ele => {
+      ele.textContent = "";
+    });
+    methodClipOutRight.forEach(ele => {
+      ele.textContent = "";
+    });
+    methodMarginRight.forEach(ele => {
+      ele.textContent = "";
+    });
   }
 });
 
 
 // 製本方法処理に利用する定数
 const methodBookBinding = document.querySelectorAll(".method");
-const methodOutLeft = document.querySelectorAll(".method-out-left");
-const methodInLeft = document.querySelectorAll(".method-in-left");
-const methodShaveLeft = document.querySelectorAll(".method-shave-left");
-const methodClipLeft = document.querySelectorAll(".method-clip-left");
-const methodClipOutLeft = document.querySelectorAll(".method-clip-out-left");
-const methodMarginLeft = document.querySelectorAll(".method-margin-left");
-const methodOutRight = document.querySelectorAll(".method-out-right");
-const methodInRight = document.querySelectorAll(".method-in-right");
-const methodShaveRight = document.querySelectorAll(".method-shave-right");
-const methodClipRight = document.querySelectorAll(".method-clip-right");
-const methodClipOutRight = document.querySelectorAll(".method-clip-out-right");
-const methodMarginRight = document.querySelectorAll(".method-margin-right");
+// const methodOutLeft = document.querySelectorAll(".method-out-left");
+// const methodInLeft = document.querySelectorAll(".method-in-left");
+// const methodShaveLeft = document.querySelectorAll(".method-shave-left");
+// const methodClipLeft = document.querySelectorAll(".method-clip-left");
+// const methodClipOutLeft = document.querySelectorAll(".method-clip-out-left");
+// const methodMarginLeft = document.querySelectorAll(".method-margin-left");
+// const methodOutRight = document.querySelectorAll(".method-out-right");
+// const methodInRight = document.querySelectorAll(".method-in-right");
+// const methodShaveRight = document.querySelectorAll(".method-shave-right");
+// const methodClipRight = document.querySelectorAll(".method-clip-right");
+// const methodClipOutRight = document.querySelectorAll(".method-clip-out-right");
+// const methodMarginRight = document.querySelectorAll(".method-margin-right");
 const shaving = 3;
 const noShaving = 0;
 const methodMargin = 3;
